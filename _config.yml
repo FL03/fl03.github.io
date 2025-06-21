@@ -8,6 +8,9 @@ keywords: ["FL03", "portfolio", "blog", "personal", "developer", "programmer", "
 baseurl: /
 domain: fl03.github.io
 url: https://fl03.github.io
+# build configuration
+destination: ./_site
+source: ./src
 # site settings
 back_to_top: true
 color_scheme: dark

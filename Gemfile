@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem "jekyll", "~> 3.10"
 
-gem "just-the-docs"        # always download the latest release
+gem "jekyll-theme-chirpy"        # always download the latest release
 
 group :jekyll_plugins do
   gem "github-pages", "~> 232"

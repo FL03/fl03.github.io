@@ -1,0 +1,19 @@
+#  The contact options.
+# icons powered by <https://fontawesome.com/>
+
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true # open link in current tab
+  url: "mailto:j3mccain@gmail.com"
+
+- type: github
+  icon: "fab fa-github"
+  url: "https://github.com/FL03"
+
+- type: linkedin
+  icon: 'fab fa-linkedin'   
+  url:  'https://linkedin/in/joe-mccain-iii'
+
+- type: twitter
+  icon: "fa-brands fa-x-twitter"
+  url: "https://x.com/jo3mccain" # Fill with your X (Twitter) account page, rel="me" will be applied for verification

@@ -1,0 +1,44 @@
+title: FL03
+description: A personal portfolio and blog for FL03
+tagline: Portfolio of FL03
+
+author: FL03
+email: j3mccain@gmail.com
+keywords: []
+baseurl: /
+domain: fl03.github.io
+url: https://fl03.github.io
+
+back_to_top: true
+color_scheme: dark
+destination: ./_site
+source: ./pages
+theme: just-the-docs
+
+mermaid:
+  # Visit https://cdn.jsdelivr.net/npm/mermaid/ to find the latest version
+  version: "11.7.0"
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:path/
+    sort_by: date
+
+just_the_docs:
+  collections:
+    posts:
+      name: Blog
+    docs:
+      name: Documentation
+    guides:
+      name: Guides
+
+aux_links:
+  GitHub:
+    - https://github.com/FL03
+
+jekyll-spaceship:
+  mermaid-processor:
+    config:
+      theme: default

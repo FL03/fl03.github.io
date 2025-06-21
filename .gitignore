@@ -1,0 +1,9 @@
+
+## Jekyll
+**/.jekyll-cache
+**/.jekyll-metadata
+**/_site
+
+## Ruby
+**/Gemfile.lock
+**/vendor/bundle

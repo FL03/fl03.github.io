@@ -1,9 +1,10 @@
 # site metadata
 description: A personal portfolio and blog for FL03
+keywords: ["FL03", "portfolio", "blog", "personal", "developer", "programmer", "software engineer"]
 lang: "en"
 tagline: Portfolio of FL03
+timezone: "America/Chicago"
 title: FL03
-keywords: ["FL03", "portfolio", "blog", "personal", "developer", "programmer", "software engineer"]
 # url configuration
 baseurl: /
 domain: fl03.github.io
@@ -72,6 +73,22 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+assets:
+  self_host:
+    enabled: # boolean, keep empty means false
+    # specify the Jekyll environment, empty means both
+    # only works if `assets.self_host.enabled` is 'true'
+    env: # [development | production]
 
 exclude:
   - README.md

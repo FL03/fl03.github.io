@@ -14,8 +14,6 @@ destination: ./_site
 source: ./src
 # site settings
 back_to_top: true
-paginate: 10
-theme: jekyll-theme-chirpy
 # plugins
 jekyll-spaceship:
   mermaid-processor:
@@ -82,10 +80,6 @@ compress_html:
   ignore:
     envs: [development]
 
-assets:
-  self_host:
-    enabled: true
-
 exclude:
   - README.md
   - LICENSE
@@ -100,3 +94,15 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+# theme settings
+theme: jekyll-theme-chirpy
+# theme configuration
+paginate: 10
+toc: true
+
+assets:
+  self_host:
+    enabled: # blank means false;
+    envs: # [development | production]
+

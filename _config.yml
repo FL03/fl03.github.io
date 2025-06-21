@@ -23,7 +23,7 @@ mermaid:
   # Visit https://cdn.jsdelivr.net/npm/mermaid/ to find the latest version
   version: "11.7.0"
 # biography
-avatar             : "src/assets/img/avatar.png"
+avatar             : "assets/img/avatar.png"
 social:
   name             : "Joe McCain III"
   email            : "j3mccai@gmail.com" 
@@ -103,6 +103,6 @@ toc: true
 
 assets:
   self_host:
-    enabled: true # blank means false;
+    enabled: # blank means false;
     envs: # [development | production]
 

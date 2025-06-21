@@ -4,7 +4,11 @@ tagline: Portfolio of FL03
 
 author: FL03
 email: j3mccain@gmail.com
-keywords: []
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
+keywords: ["FL03", "portfolio", "blog", "personal", "developer", "programmer", "software engineer"]
 baseurl: /
 domain: fl03.github.io
 url: https://fl03.github.io

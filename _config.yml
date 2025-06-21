@@ -103,6 +103,6 @@ toc: true
 
 assets:
   self_host:
-    enabled: # blank means false;
+    enabled: true # blank means false;
     envs: # [development | production]
 

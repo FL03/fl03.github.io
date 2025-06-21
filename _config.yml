@@ -8,6 +8,16 @@ exclude:
   - README.md
   - LICENSE
   - .gitignore
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 keywords: ["FL03", "portfolio", "blog", "personal", "developer", "programmer", "software engineer"]
 baseurl: /
 domain: fl03.github.io

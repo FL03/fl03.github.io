@@ -5,5 +5,4 @@
 **/_site
 
 ## Ruby
-**/Gemfile.lock
-**/vendor/bundle
+**/vendor/*
